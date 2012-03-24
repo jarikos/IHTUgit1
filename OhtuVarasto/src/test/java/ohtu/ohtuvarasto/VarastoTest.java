@@ -40,7 +40,7 @@ public class VarastoTest {
     }
         @Test
     public void konstruktoriLuoKelvotmantVaraston() {
-        assertEquals(0, kelvotonVarasto.getSaldo(), vertailuTarkkuus);
+        assertEquals(16, kelvotonVarasto.getSaldo(), vertailuTarkkuus);
     }
     
     @Test
